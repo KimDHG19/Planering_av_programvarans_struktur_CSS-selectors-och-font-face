@@ -1,0 +1,57 @@
+@font-face {
+    font-family: prociono;
+    src: url("Prociono.ttf");
+}
+
+h1 {
+    font-family: prociono, serif;
+}
+
+h3 {
+    font-family: 'Red Rose', cursive;
+}
+
+
+em {
+    background: deeppink;
+}
+
+.main_nav ul {
+    color: blue;
+}
+
+.main_nav ul ul {
+    color: black;
+}
+
+article p {
+    color: orange;
+}
+
+[title="textsnutt"] {
+    color: #ff3300;
+}
+
+[title="mycket viktig text"] {
+    background: #ff3300;
+}
+
+[title~="viktig paragraf"] {
+    background: #ff3300;
+}
+
+#zebra li:nth-child(odd) {
+    color: #99ccff;
+}
+
+#zebra:last-child {
+    border-bottom:2px red ;
+}
+
+table tr:nth-child(3n) {
+    background:#FFFF99;
+}
+
+table tr:nth-child(2n) {
+    background:#ccFF66;
+}
